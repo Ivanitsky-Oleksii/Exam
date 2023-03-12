@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 
 
 
 const Home  = 
 function Count1() {
-const [count1, setCount1] = useState(1);
-const [count2, setCount2] = useState(6);
+const [count1, setCount1] = useState(0);
+const [count2, setCount2] = useState(0);
 const [count3, setCount3] = useState(0);
 return (
 <>
